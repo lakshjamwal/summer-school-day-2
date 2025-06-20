@@ -1,0 +1,60 @@
+
+/* (ID SELECTOR) */
+#profile
+{
+  border-radius: 30%;
+}
+
+
+/* (CLASS SELECTOR) */
+.new1
+{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+/* (ELEMENT SELECTOR) */
+h1
+{
+    text-align: center;
+}
+
+
+/* (GROUP SELECTOR) */
+ol,p
+{
+    background-color: aqua;
+}
+
+
+/* (DECENDENT SELECTOR) */
+div p
+{
+    background-color: bisque;
+}
+
+
+/* (ATTRIBUTE SELECTOR) */
+a[target]
+{
+    background-color: blue;
+    text-decoration: dashed;
+    color: antiquewhite;
+}
+
+
+/* (SHADOW) */
+.profilecard
+{
+  box-shadow: 10px 10px ;
+}
+
+/* ( HOVER EFFECT) */
+a:hover
+{
+    background-color:chartreuse;
+    color: red;
+    font: italic;
+    font-size: larger
+
+}
